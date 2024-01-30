@@ -48,8 +48,8 @@ The research of Georgios Zoumpourlis was supported by QMUL Principal's Studentsh
 
 ## Credits
 
-Special thanks go to the authors of `MOABB <https://github.com/NeuroTechX/moabb>`, `Braindecode <https://github.com/braindecode/braindecode>`, `MNE-Python <https://github.com/mne-tools/mne-python>` and `pyRiemann <https://github.com/pyRiemann/pyRiemann>` libraries, which have been essential for this project.
+Special thanks go to the authors of [MOABB](https://github.com/NeuroTechX/moabb), [Braindecode](https://github.com/braindecode/braindecode), [MNE-Python](https://github.com/mne-tools/mne-python) and [pyRiemann](https://github.com/pyRiemann/pyRiemann) libraries, which have been essential for this project.
 
-The current GitHub repo contains code parts from the following repository (heavily chopped, adapting and keeping some logging tools):
+The current GitHub repo contains code parts from the following repository (heavily chopped, adapting and keeping some logging tools): <br />
 Code in `third_party/skorch`: https://github.com/skorch-dev/skorch <br />
 Credits go to its owners/developers. Its license is included in the corresponding folder.
