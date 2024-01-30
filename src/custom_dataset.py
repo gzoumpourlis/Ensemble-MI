@@ -329,18 +329,6 @@ class ToTensor(object):
 
     def __call__(self, sample):
 
-        # sample_tensor = {'eeg': torch.from_numpy(sample['eeg']),
-        #                 'target': torch.from_numpy(np.array(sample['target'])).type(torch.LongTensor),
-        #                  'dataset_idx': sample['dataset_idx'],
-        #                  }
-        # if 'subset' in sample.keys():
-        #     sample_tensor.update({'subset': sample['subset']})
-        # if 'subject' in sample.keys():
-        #     sample_tensor.update({'subject': sample['subject']})
-        # if 'session' in sample.keys():
-        #     sample_tensor.update({'session': sample['session']})
-        # return sample_tensor
-
         sample['eeg'] = torch.from_numpy(sample['eeg'])
         sample['target'] = torch.from_numpy(np.array(sample['target'])).type(torch.LongTensor)
 
