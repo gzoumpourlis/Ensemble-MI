@@ -6,6 +6,7 @@ import datetime
 import numpy as np
 import pandas as pd
 
+from src.config import *
 from src.train import train
 from src.args_utils import create_exp_args
 
